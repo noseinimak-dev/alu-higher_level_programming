@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-str = "PASTE YOUR STARTER STRING HERE"
-print(str[A:B], str[C:D], str[E:F])
+str = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax"
+str = str[39:66] + str[106:112] + str[:6]
+print(str)
